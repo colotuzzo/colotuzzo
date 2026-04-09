@@ -43,7 +43,7 @@ const content: Record<Lang, Content> = {
       "This place was created as a quiet point of connection — for people who carry the surname Colotuzzo, for relatives, and for those who share a bond with its roots. Whether you found this page by chance or by searching, you are welcome here.",
     originsTitle: "Where the name comes from",
     originsBody:
-      "The surname Colotuzzo is believed to derive from an earlier form, Collatuzzo — a name whose precise origins remain part of family tradition rather than fully documented history. What we do know points toward northern Italy, to the Veneto region and the province of Treviso, with a particularly strong connection to Pieve di Soligo. There is also a possible, though uncertain, earlier link to the locality of Colalto in the same broader area. These are threads worth following, carefully and with an open mind.",
+      "The surname Colotuzzo is believed to derive from an earlier form, Collatuzzo — a name whose precise origins remain part of family tradition rather than fully documented history. What we do know points toward northern Italy, to the Veneto region and the province of Treviso, with a particularly strong connection to Pieve di Soligo. There is also a possible, though uncertain, earlier link to the locality of Collalto in the same broader area. These are threads worth following, carefully and with an open mind.",
     geographyTitle: "Rooted in Veneto",
     geographyBody:
       "The Veneto region, in northeastern Italy, is the landscape that appears most clearly when tracing the family's origins. Treviso, Pieve di Soligo, and the surrounding hills and valleys form the geographic heart of this story.",
@@ -76,7 +76,7 @@ const content: Record<Lang, Content> = {
       "Este lugar fue creado como un punto de encuentro tranquilo — para quienes llevan el apellido Colotuzzo, para parientes, y para quienes comparten un vínculo con sus raíces. Seas quien llegó aquí por casualidad o buscando, eres bienvenido.",
     originsTitle: "El origen del apellido",
     originsBody:
-      "Se cree que el apellido Colotuzzo deriva de una forma anterior, Collatuzzo — un nombre cuyo origen preciso pertenece más a la tradición familiar que a la historia documentada. Lo que sabemos apunta al norte de Italia, a la región del Véneto y la provincia de Treviso, con una conexión especialmente fuerte con Pieve di Soligo. Existe también un posible vínculo, aún incierto, con la localidad de Colalto en la misma zona. Son hilos que vale la pena seguir, con cuidado y mente abierta.",
+      "Se cree que el apellido Colotuzzo deriva de una forma anterior, Collatuzzo — un nombre cuyo origen preciso pertenece más a la tradición familiar que a la historia documentada. Lo que sabemos apunta al norte de Italia, a la región del Véneto y la provincia de Treviso, con una conexión especialmente fuerte con Pieve di Soligo. Existe también un posible vínculo, aún incierto, con la localidad de Collalto en la misma zona. Son hilos que vale la pena seguir, con cuidado y mente abierta.",
     geographyTitle: "Raíces en el Véneto",
     geographyBody:
       "La región del Véneto, en el noreste de Italia, es el paisaje que aparece con más claridad al trazar los orígenes de la familia. Treviso, Pieve di Soligo y las colinas y valles que los rodean forman el corazón geográfico de esta historia.",
@@ -109,7 +109,7 @@ const content: Record<Lang, Content> = {
       "Questo luogo è stato creato come un punto di connessione tranquillo — per chi porta il cognome Colotuzzo, per i parenti, e per chi condivide un legame con le sue radici. Che tu sia arrivato qui per caso o cercando, sei il benvenuto.",
     originsTitle: "Le origini del cognome",
     originsBody:
-      "Si ritiene che il cognome Colotuzzo derivi da una forma più antica, Collatuzzo — un nome le cui origini precise appartengono più alla tradizione familiare che alla storia documentata. Quel che sappiamo indica il nord Italia, la regione del Veneto e la provincia di Treviso, con un legame particolarmente forte con Pieve di Soligo. Esiste anche un possibile collegamento, ancora incerto, con la località di Colalto nella stessa area. Sono fili che vale la pena seguire, con cura e mente aperta.",
+      "Si ritiene che il cognome Colotuzzo derivi da una forma più antica, Collatuzzo — un nome le cui origini precise appartengono più alla tradizione familiare che alla storia documentata. Quel che sappiamo indica il nord Italia, la regione del Veneto e la provincia di Treviso, con un legame particolarmente forte con Pieve di Soligo. Esiste anche un possibile collegamento, ancora incerto, con la località di Collalto nella stessa area. Sono fili che vale la pena seguire, con cura e mente aperta.",
     geographyTitle: "Radici nel Veneto",
     geographyBody:
       "La regione del Veneto, nel nord-est dell'Italia, è il paesaggio che emerge con maggiore chiarezza nel tracciare le origini della famiglia. Treviso, Pieve di Soligo e le colline e vallate circostanti formano il cuore geografico di questa storia.",
@@ -452,7 +452,7 @@ export default function Home() {
 
           <FadeSection delay={200}>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {/* MAP IMAGE: Replace with your own map of Veneto/Treviso/Pieve di Soligo/Colalto when ready */}
+              {/* MAP IMAGE: Replace with your own map of Veneto/Treviso/Pieve di Soligo/Collalto when ready */}
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80&fit=crop"
