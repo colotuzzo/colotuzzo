@@ -286,19 +286,15 @@ export default function Home() {
         className="relative flex flex-col items-center justify-center min-h-screen px-6 text-center"
         style={{ backgroundColor: "#FAF9F6" }}
       >
-        {/* IMAGE PLACEHOLDER: Hero — Replace with photo of Treviso/Pieve di Soligo landscape */}
-        <div
-          className="absolute inset-0 w-full h-full"
-          style={{ backgroundColor: "#F0EAE0", opacity: 0.5 }}
+        {/* HERO IMAGE: Veneto hills landscape — replace src with your own photo when ready */}
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="https://images.unsplash.com/photo-1599940824399-b87987ceb72a?w=1800&q=80&fit=crop"
+          alt="Veneto hills landscape"
+          className="absolute inset-0 w-full h-full object-cover"
+          style={{ opacity: 0.22 }}
           aria-hidden="true"
-        >
-          <div
-            className="w-full h-full flex items-center justify-center"
-            style={{ color: "#C4B49A", fontSize: "0.8rem", fontFamily: "var(--font-inter)" }}
-          >
-            [Hero Image: Treviso / Pieve di Soligo landscape]
-          </div>
-        </div>
+        />
 
         <div className="relative z-10 flex flex-col items-center gap-6 max-w-2xl mx-auto">
           <div
@@ -456,37 +452,23 @@ export default function Home() {
 
           <FadeSection delay={200}>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {/* IMAGE PLACEHOLDER: Map — Veneto region showing Treviso, Pieve di Soligo, Colalto */}
-              <div
-                className="rounded-sm flex items-center justify-center"
-                style={{
-                  height: "320px",
-                  backgroundColor: "#E8DFD0",
-                  color: "#A0907A",
-                  fontSize: "0.8rem",
-                  fontFamily: "var(--font-inter)",
-                  textAlign: "center",
-                  padding: "1rem",
-                }}
-              >
-                [Map: Veneto region — Treviso, Pieve di Soligo, Colalto]
-              </div>
+              {/* MAP IMAGE: Replace with your own map of Veneto/Treviso/Pieve di Soligo/Colalto when ready */}
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80&fit=crop"
+                alt="Map of Veneto region"
+                className="rounded-sm w-full object-cover"
+                style={{ height: "320px" }}
+              />
 
-              {/* IMAGE PLACEHOLDER: Secondary regional — hills and valleys of Veneto */}
-              <div
-                className="rounded-sm flex items-center justify-center"
-                style={{
-                  height: "320px",
-                  backgroundColor: "#E0D8CC",
-                  color: "#A0907A",
-                  fontSize: "0.8rem",
-                  fontFamily: "var(--font-inter)",
-                  textAlign: "center",
-                  padding: "1rem",
-                }}
-              >
-                [Regional Image: Hills and valleys of Veneto]
-              </div>
+              {/* REGIONAL IMAGE: Replace with your own photo of Veneto hills/countryside when ready */}
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=800&q=80&fit=crop"
+                alt="Hills and valleys of Veneto"
+                className="rounded-sm w-full object-cover"
+                style={{ height: "320px" }}
+              />
             </div>
           </FadeSection>
         </div>
