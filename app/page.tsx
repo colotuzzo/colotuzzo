@@ -11,6 +11,8 @@ interface Content {
   welcome: string;
   originsTitle: string;
   originsBody: string;
+  regionTitle: string;
+  regionBody: string;
   geographyTitle: string;
   geographyBody: string;
   purposeTitle: string;
@@ -45,19 +47,21 @@ const content: Record<Lang, Content> = {
     heroSubtitle:
       "A small digital home for Colotuzzos, Collatuzzos, and related family branches around the world.",
     welcome:
-      "This place was created as a quiet point of connection — for people who carry the surname Colotuzzo, for relatives, and for those who share a bond with its roots. If you carry the name, share a related variation, or simply feel drawn to this corner of family history, you are welcome here.",
+      "This place was created as a quiet point of connection, for people who carry the surname Colotuzzo, for relatives, and for those who share a bond with its roots. If you carry the name, share a related variation, or simply feel drawn to this corner of family history, you are welcome here.",
     originsTitle: "Where the name comes from",
     originsBody:
-      "The surname Colotuzzo is believed to derive from an earlier form, Collatuzzo — a name whose precise origins remain part of family tradition rather than fully documented history. What we know with some confidence points toward northern Italy: the Veneto region, the province of Treviso, and in particular the town of Pieve di Soligo. There is also a possible, though uncertain, earlier geographic link to the locality of Collalto, in the same broader area — a thread worth holding gently, and following with care.",
+      "The surname Colotuzzo is believed to derive from an earlier form, Collatuzzo, a name whose precise origins remain part of family tradition rather than fully documented history. What we know with some confidence points toward northern Italy: the Veneto region, the province of Treviso, and in particular the town of Pieve di Soligo. There is also a possible, though uncertain, earlier geographic link to the locality of Collalto, in the same broader area, a thread worth holding gently, and following with care.",
+    regionTitle: "A land of hills, wine, and memory",
+    regionBody: "The province of Treviso is one of the most quietly beautiful parts of Italy. Its hills are covered in vineyards that produce Prosecco, one of the world's most celebrated sparkling wines. Its kitchens are credited with the invention of tiramisu. Its landscapes shift between rolling countryside, medieval villages, and the distant outline of the Dolomites. Pieve di Soligo sits within this world, a small town surrounded by vines and hills in the Marca Trevigiana. Collalto, nearby, takes its name from the medieval castle that once stood there, looking out over the same countryside. This is the landscape that forms the backdrop of the Colotuzzo family story.",
     geographyTitle: "A small corner of northern Italy",
     geographyBody:
-      "The story of the Colotuzzo surname seems to live within a small and beautiful part of northeastern Italy — the hills and valleys of the Veneto, between Treviso and the Dolomites. Pieve di Soligo sits at the heart of this landscape. Collalto rises nearby. It is a quiet, historically layered part of Italy, and it appears to be where the name first took root.",
+      "The story of the Colotuzzo surname seems to live within a small and beautiful part of northeastern Italy, the hills and valleys of the Veneto, between Treviso and the Dolomites. Pieve di Soligo sits at the heart of this landscape. Collalto rises nearby. It is a quiet, historically layered part of Italy, and it appears to be where the name first took root.",
     purposeTitle: "Why this site exists",
     purposeBody:
-      "This site was created for a simple reason: to offer a small point of connection for Colotuzzos, Collatuzzos, and related family branches wherever they may be. To preserve a sense of shared memory and place. To make it possible for people who carry this name — or a variation of it — to find each other, or at least to know that this corner exists.\n\nThis website has no commercial purpose and does not pursue any commercial objective of any kind. It is a personal and family initiative, nothing more.",
+      "This site was created for a simple reason: to offer a small point of connection for Colotuzzos, Collatuzzos, and related family branches wherever they may be. To preserve a sense of shared memory and place. To make it possible for people who carry this name, or a variation of it, to find each other, or at least to know that this corner exists.\n\nThis website has no commercial purpose and does not pursue any commercial objective of any kind. It is a personal and family initiative, nothing more.",
     variationsTitle: "Surname variations and related branches",
     variationsBody:
-      "Surnames change across generations, borders, and documents. A name recorded one way in one village might appear differently a generation later or in another country. This site also welcomes people who carry surname variations or related branches connected to the earlier form Collatuzzo — whether through spelling shifts, regional differences, or the natural drift of family names across time and place.",
+      "Surnames change across generations, borders, and documents. A name recorded one way in one village might appear differently a generation later or in another country. This site also welcomes people who carry surname variations or related branches connected to the earlier form Collatuzzo, whether through spelling shifts, regional differences, or the natural drift of family names across time and place.",
     contactTitle:
       "Are you a Colotuzzo, a Collatuzzo, or part of a related branch?",
     contactHelper:
@@ -73,10 +77,10 @@ const content: Record<Lang, Content> = {
     },
     emailNoteTitle: "A family email",
     emailNoteBody:
-      "Over time, it may become possible to offer personal email addresses under the @colotuzzo.com domain — for family members, related branches, or people with a meaningful connection to the name. If this is something you would be interested in, feel free to mention it when you write.",
+      "Over time, it may become possible to offer personal email addresses under the @colotuzzo.com domain, for family members, related branches, or people with a meaningful connection to the name. If this is something you would be interested in, feel free to mention it when you write.",
     personalNoteTitle: "A note from Uruguay",
     personalNoteBody:
-      "I am writing from Uruguay, where I was born and where I live. As far as I know, we may be only around 20 to 30 Colotuzzos in total — scattered across a few countries, connected by a name whose origins we are still piecing together. That smallness is also part of why this page exists.",
+      "I am writing from Uruguay, where I was born and where I live. As far as I know, we may be only around 20 to 30 Colotuzzos in total, scattered across a few countries, connected by a name whose origins we are still piecing together. That smallness is also part of why this page exists.",
     footerTagline: "Created as a personal family initiative",
     sending: "Sending…",
     sent: "Message sent. Thank you.",
@@ -86,19 +90,21 @@ const content: Record<Lang, Content> = {
     heroSubtitle:
       "Un pequeño hogar digital para los Colotuzzo, Collatuzzo y ramas familiares relacionadas en todo el mundo.",
     welcome:
-      "Este lugar fue creado como un punto de encuentro tranquilo — para quienes llevan el apellido Colotuzzo, para parientes, y para quienes comparten un vínculo con sus raíces. Si llevas el apellido, compartes una variación relacionada, o simplemente te sentís atraído por este rincón de historia familiar, sos bienvenido.",
+      "Este lugar fue creado como un punto de encuentro tranquilo, para quienes llevan el apellido Colotuzzo, para parientes, y para quienes comparten un vínculo con sus raíces. Si llevas el apellido, compartes una variación relacionada, o simplemente te sentís atraído por este rincón de historia familiar, sos bienvenido.",
     originsTitle: "El origen del apellido",
     originsBody:
-      "Se cree que el apellido Colotuzzo deriva de una forma anterior, Collatuzzo — un nombre cuyo origen preciso pertenece más a la tradición familiar que a la historia documentada. Lo que sabemos con cierta certeza apunta al norte de Italia: la región del Véneto, la provincia de Treviso, y en particular la localidad de Pieve di Soligo. Existe también un posible vínculo geográfico anterior con Collalto, en la misma zona más amplia — un hilo que vale la pena seguir con cuidado y mente abierta.",
+      "Se cree que el apellido Colotuzzo deriva de una forma anterior, Collatuzzo, un nombre cuyo origen preciso pertenece más a la tradición familiar que a la historia documentada. Lo que sabemos con cierta certeza apunta al norte de Italia: la región del Véneto, la provincia de Treviso, y en particular la localidad de Pieve di Soligo. Existe también un posible vínculo geográfico anterior con Collalto, en la misma zona más amplia, un hilo que vale la pena seguir con cuidado y mente abierta.",
+    regionTitle: "Una tierra de colinas, vino y memoria",
+    regionBody: "La provincia de Treviso es una de las partes más discretamente hermosas de Italia. Sus colinas están cubiertas de viñedos que producen el Prosecco, uno de los vinos espumantes más celebrados del mundo. Sus cocinas se atribuyen la invención del tiramisú. Sus paisajes alternan entre campos ondulados, pueblos medievales y el perfil lejano de los Dolomitas. Pieve di Soligo se asienta en este mundo, un pequeño pueblo rodeado de viñas y colinas en la Marca Trevigiana. Collalto, cerca de allí, toma su nombre del castillo medieval que alguna vez se alzó en ese lugar, mirando sobre el mismo campo. Este es el paisaje que forma el telón de fondo de la historia familiar Colotuzzo.",
     geographyTitle: "Un pequeño rincón del norte de Italia",
     geographyBody:
-      "La historia del apellido Colotuzzo parece vivir en una pequeña y hermosa parte del noreste de Italia — las colinas y valles del Véneto, entre Treviso y los Dolomitas. Pieve di Soligo está en el corazón de ese paisaje. Collalto se eleva cerca. Es una parte tranquila e históricamente rica de Italia, y parece ser donde el apellido echó raíces por primera vez.",
+      "La historia del apellido Colotuzzo parece vivir en una pequeña y hermosa parte del noreste de Italia, las colinas y valles del Véneto, entre Treviso y los Dolomitas. Pieve di Soligo está en el corazón de ese paisaje. Collalto se eleva cerca. Es una parte tranquila e históricamente rica de Italia, y parece ser donde el apellido echó raíces por primera vez.",
     purposeTitle: "Por qué existe este sitio",
     purposeBody:
-      "Este sitio fue creado por una razón sencilla: ofrecer un pequeño punto de conexión para los Colotuzzo, Collatuzzo y ramas familiares relacionadas donde sea que estén. Para preservar un sentido de memoria y lugar compartidos. Para hacer posible que quienes llevan este apellido — o una variación — puedan encontrarse, o al menos saber que este rincón existe.\n\nEste sitio web no tiene ningún propósito comercial ni persigue ningún objetivo comercial de ningún tipo. Es una iniciativa personal y familiar, nada más.",
+      "Este sitio fue creado por una razón sencilla: ofrecer un pequeño punto de conexión para los Colotuzzo, Collatuzzo y ramas familiares relacionadas donde sea que estén. Para preservar un sentido de memoria y lugar compartidos. Para hacer posible que quienes llevan este apellido, o una variación, puedan encontrarse, o al menos saber que este rincón existe.\n\nEste sitio web no tiene ningún propósito comercial ni persigue ningún objetivo comercial de ningún tipo. Es una iniciativa personal y familiar, nada más.",
     variationsTitle: "Variaciones del apellido y ramas relacionadas",
     variationsBody:
-      "Los apellidos cambian a través de generaciones, fronteras y documentos. Un nombre registrado de una manera en un pueblo puede aparecer de forma diferente una generación después o en otro país. Este sitio también da la bienvenida a quienes llevan variaciones del apellido o ramas relacionadas vinculadas a la forma anterior Collatuzzo — ya sea por cambios ortográficos, diferencias regionales, o la deriva natural de los apellidos a través del tiempo y el espacio.",
+      "Los apellidos cambian a través de generaciones, fronteras y documentos. Un nombre registrado de una manera en un pueblo puede aparecer de forma diferente una generación después o en otro país. Este sitio también da la bienvenida a quienes llevan variaciones del apellido o ramas relacionadas vinculadas a la forma anterior Collatuzzo, ya sea por cambios ortográficos, diferencias regionales, o la deriva natural de los apellidos a través del tiempo y el espacio.",
     contactTitle:
       "¿Sos Colotuzzo, Collatuzzo, o parte de una rama relacionada?",
     contactHelper:
@@ -114,10 +120,10 @@ const content: Record<Lang, Content> = {
     },
     emailNoteTitle: "Un email familiar",
     emailNoteBody:
-      "Con el tiempo, podría ser posible ofrecer direcciones de correo personales bajo el dominio @colotuzzo.com — para miembros de la familia, ramas relacionadas, o personas con un vínculo significativo con el apellido. Si esto te interesa, no dudes en mencionarlo cuando escribas.",
+      "Con el tiempo, podría ser posible ofrecer direcciones de correo personales bajo el dominio @colotuzzo.com, para miembros de la familia, ramas relacionadas, o personas con un vínculo significativo con el apellido. Si esto te interesa, no dudes en mencionarlo cuando escribas.",
     personalNoteTitle: "Una nota desde Uruguay",
     personalNoteBody:
-      "Escribo desde Uruguay, donde nací y donde vivo. Hasta donde sé, quizás seamos alrededor de 20 o 30 Colotuzzo en total — dispersos por algunos países, conectados por un apellido cuyo origen todavía estamos tratando de entender. Esa pequeñez también es parte de por qué existe esta página.",
+      "Escribo desde Uruguay, donde nací y donde vivo. Hasta donde sé, quizás seamos alrededor de 20 o 30 Colotuzzo en total, dispersos por algunos países, conectados por un apellido cuyo origen todavía estamos tratando de entender. Esa pequeñez también es parte de por qué existe esta página.",
     footerTagline: "Creado como una iniciativa personal y familiar",
     sending: "Enviando…",
     sent: "Mensaje enviado. Gracias.",
@@ -127,19 +133,21 @@ const content: Record<Lang, Content> = {
     heroSubtitle:
       "Una piccola casa digitale per i Colotuzzo, i Collatuzzo e i rami familiari correlati nel mondo.",
     welcome:
-      "Questo luogo è stato creato come un punto di connessione tranquillo — per chi porta il cognome Colotuzzo, per i parenti, e per chi condivide un legame con le sue radici. Se porti il cognome, condividi una variante correlata, o ti senti semplicemente attratto da questo angolo di storia familiare, sei il benvenuto.",
+      "Questo luogo è stato creato come un punto di connessione tranquillo, per chi porta il cognome Colotuzzo, per i parenti, e per chi condivide un legame con le sue radici. Se porti il cognome, condividi una variante correlata, o ti senti semplicemente attratto da questo angolo di storia familiare, sei il benvenuto.",
     originsTitle: "Le origini del cognome",
     originsBody:
-      "Si ritiene che il cognome Colotuzzo derivi da una forma più antica, Collatuzzo — un nome le cui origini precise appartengono più alla tradizione familiare che alla storia documentata. Quel che sappiamo con una certa certezza indica il nord Italia: la regione del Veneto, la provincia di Treviso, e in particolare la località di Pieve di Soligo. Esiste anche un possibile collegamento geografico precedente con Collalto, nella stessa area più ampia — un filo che vale la pena seguire con cura e mente aperta.",
+      "Si ritiene che il cognome Colotuzzo derivi da una forma più antica, Collatuzzo, un nome le cui origini precise appartengono più alla tradizione familiare che alla storia documentata. Quel che sappiamo con una certa certezza indica il nord Italia: la regione del Veneto, la provincia di Treviso, e in particolare la località di Pieve di Soligo. Esiste anche un possibile collegamento geografico precedente con Collalto, nella stessa area più ampia, un filo che vale la pena seguire con cura e mente aperta.",
+    regionTitle: "Una terra di colline, vino e memoria",
+    regionBody: "La provincia di Treviso è una delle parti più discretamente belle d'Italia. Le sue colline sono coperte di vigneti che producono il Prosecco, uno dei vini spumanti più celebrati al mondo. Le sue cucine si attribuiscono l'invenzione del tiramiSù. I suoi paesaggi si alternano tra campagne ondulate, borghi medievali e il profilo lontano delle Dolomiti. Pieve di Soligo si trova in questo mondo, un piccolo paese circondato da vigne e colline nella Marca Trevigiana. Collalto, nelle vicinanze, prende il nome dal castello medievale che un tempo sorgeva lì, con vista sulla stessa campagna. È questo il paesaggio che fa da sfondo alla storia di famiglia dei Colotuzzo.",
     geographyTitle: "Un piccolo angolo del nord Italia",
     geographyBody:
-      "La storia del cognome Colotuzzo sembra vivere in una piccola e bella parte del nord-est italiano — le colline e le vallate del Veneto, tra Treviso e le Dolomiti. Pieve di Soligo si trova al cuore di questo paesaggio. Collalto si eleva nelle vicinanze. È una parte tranquilla e storicamente ricca dell'Italia, e sembra essere il luogo in cui il nome ha messo radici per la prima volta.",
+      "La storia del cognome Colotuzzo sembra vivere in una piccola e bella parte del nord-est italiano, le colline e le vallate del Veneto, tra Treviso e le Dolomiti. Pieve di Soligo si trova al cuore di questo paesaggio. Collalto si eleva nelle vicinanze. È una parte tranquilla e storicamente ricca dell'Italia, e sembra essere il luogo in cui il nome ha messo radici per la prima volta.",
     purposeTitle: "Perché esiste questo sito",
     purposeBody:
-      "Questo sito è stato creato per una ragione semplice: offrire un piccolo punto di connessione per i Colotuzzo, i Collatuzzo e i rami familiari correlati ovunque si trovino. Per preservare un senso di memoria e luogo condivisi. Per rendere possibile che le persone che portano questo cognome — o una sua variante — possano incontrarsi, o almeno sapere che questo angolo esiste.\n\nQuesto sito non ha alcuno scopo commerciale e non persegue alcun obiettivo commerciale di alcun tipo. È un'iniziativa personale e familiare, niente di più.",
+      "Questo sito è stato creato per una ragione semplice: offrire un piccolo punto di connessione per i Colotuzzo, i Collatuzzo e i rami familiari correlati ovunque si trovino. Per preservare un senso di memoria e luogo condivisi. Per rendere possibile che le persone che portano questo cognome, o una sua variante, possano incontrarsi, o almeno sapere che questo angolo esiste.\n\nQuesto sito non ha alcuno scopo commerciale e non persegue alcun obiettivo commerciale di alcun tipo. È un'iniziativa personale e familiare, niente di più.",
     variationsTitle: "Varianti del cognome e rami correlati",
     variationsBody:
-      "I cognomi cambiano attraverso generazioni, confini e documenti. Un nome registrato in un modo in un paese potrebbe apparire diversamente una generazione dopo o in un altro paese. Questo sito accoglie anche persone che portano varianti del cognome o rami correlati legati alla forma più antica Collatuzzo — che si tratti di cambiamenti ortografici, differenze regionali, o la naturale deriva dei cognomi attraverso il tempo e lo spazio.",
+      "I cognomi cambiano attraverso generazioni, confini e documenti. Un nome registrato in un modo in un paese potrebbe apparire diversamente una generazione dopo o in un altro paese. Questo sito accoglie anche persone che portano varianti del cognome o rami correlati legati alla forma più antica Collatuzzo, che si tratti di cambiamenti ortografici, differenze regionali, o la naturale deriva dei cognomi attraverso il tempo e lo spazio.",
     contactTitle:
       "Sei un Colotuzzo, un Collatuzzo, o parte di un ramo correlato?",
     contactHelper:
@@ -155,10 +163,10 @@ const content: Record<Lang, Content> = {
     },
     emailNoteTitle: "Una email di famiglia",
     emailNoteBody:
-      "Con il tempo, potrebbe diventare possibile offrire indirizzi email personali sotto il dominio @colotuzzo.com — per i membri della famiglia, i rami correlati, o le persone con un legame significativo con il cognome. Se questo è qualcosa che ti interesserebbe, sentiti libero di menzionarlo quando scrivi.",
+      "Con il tempo, potrebbe diventare possibile offrire indirizzi email personali sotto il dominio @colotuzzo.com, per i membri della famiglia, i rami correlati, o le persone con un legame significativo con il cognome. Se questo è qualcosa che ti interesserebbe, sentiti libero di menzionarlo quando scrivi.",
     personalNoteTitle: "Una nota dall'Uruguay",
     personalNoteBody:
-      "Scrivo dall'Uruguay, dove sono nato e dove vivo. Per quanto ne so, potremmo essere solo una ventina o trentina di Colotuzzo in tutto — sparsi in alcuni paesi, uniti da un cognome le cui origini stiamo ancora cercando di ricostruire. Questa piccolezza è anche parte del motivo per cui esiste questa pagina.",
+      "Scrivo dall'Uruguay, dove sono nato e dove vivo. Per quanto ne so, potremmo essere solo una ventina o trentina di Colotuzzo in tutto, sparsi in alcuni paesi, uniti da un cognome le cui origini stiamo ancora cercando di ricostruire. Questa piccolezza è anche parte del motivo per cui esiste questa pagina.",
     footerTagline: "Creato come un'iniziativa personale e familiare",
     sending: "Invio in corso…",
     sent: "Messaggio inviato. Grazie.",
@@ -429,6 +437,43 @@ export default function Home() {
         </FadeSection>
       </section>
 
+      
+      {/* ── Region (Treviso / Veneto cultural block) ───────────────────── */}
+      <section className="px-6 py-24 md:py-32" style={{ backgroundColor: "#FAF9F6" }}>
+        <div className="max-w-3xl mx-auto">
+          <FadeSection>
+            <h2 style={{ fontFamily: "var(--font-playfair)", fontSize: "clamp(1.6rem, 4vw, 2.2rem)", fontWeight: 400, color: "#2C1810", marginBottom: "1.5rem", letterSpacing: "-0.01em" }}>
+              {t.regionTitle}
+            </h2>
+            <p style={{ fontFamily: "var(--font-inter)", fontSize: "1rem", lineHeight: 1.9, color: "#4A3728", maxWidth: "680px" }}>
+              {t.regionBody}
+            </p>
+          </FadeSection>
+          <FadeSection delay={150}>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-12">
+              <div>
+                {/* IMAGE: Prosecco vineyards of Treviso hills — replace with your own photo */}
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=600&q=80&fit=crop" alt="Prosecco vineyards" style={{ width: "100%", height: "220px", objectFit: "cover", borderRadius: "2px" }} />
+                <p style={{ fontFamily: "var(--font-inter)", fontSize: "0.75rem", color: "#8B7355", marginTop: "0.5rem", textAlign: "center" }}>Prosecco hills, Treviso</p>
+              </div>
+              <div>
+                {/* IMAGE: Tiramisu — replace with your own photo */}
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600&q=80&fit=crop" alt="Tiramisu" style={{ width: "100%", height: "220px", objectFit: "cover", borderRadius: "2px" }} />
+                <p style={{ fontFamily: "var(--font-inter)", fontSize: "0.75rem", color: "#8B7355", marginTop: "0.5rem", textAlign: "center" }}>Tiramisu, born in Treviso</p>
+              </div>
+              <div>
+                {/* IMAGE: Veneto countryside — replace with your own photo */}
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=600&q=80&fit=crop" alt="Veneto countryside" style={{ width: "100%", height: "220px", objectFit: "cover", borderRadius: "2px" }} />
+                <p style={{ fontFamily: "var(--font-inter)", fontSize: "0.75rem", color: "#8B7355", marginTop: "0.5rem", textAlign: "center" }}>Veneto countryside</p>
+              </div>
+            </div>
+          </FadeSection>
+        </div>
+      </section>
+
       {/* ── Geography ──────────────────────────────────────────────────────── */}
       <section
         className="px-6 py-24 md:py-32"
@@ -485,7 +530,7 @@ export default function Home() {
                     }}
                     sandbox="allow-scripts allow-same-origin"
                     loading="lazy"
-                    title="Map of Veneto — Pieve di Soligo and Collalto"
+                    title="Map of Veneto, Pieve di Soligo and Collalto"
                   />
                 </div>
                 <p
@@ -522,7 +567,7 @@ export default function Home() {
                     }}
                     sandbox="allow-scripts allow-same-origin"
                     loading="lazy"
-                    title="Map of Uruguay — where this page is written from"
+                    title="Map of Uruguay, where this page is written from"
                   />
                 </div>
                 <p
@@ -535,7 +580,7 @@ export default function Home() {
                     textAlign: "center",
                   }}
                 >
-                  Uruguay — where this page is written from
+                  Uruguay, where this page is written from
                 </p>
               </div>
             </div>
